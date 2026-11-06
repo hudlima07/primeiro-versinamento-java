@@ -1,0 +1,62 @@
+#logo{
+    width: 100px;
+}
+header{
+    border: 2px solid red;
+    display: flex;
+    border: none;
+    background-color: black;
+    font-family:fantasy, Arial, sans-serif;
+}
+.logo{
+    border: 2px solid green;
+    display: flex;
+    align-items: center;
+    border: none;
+    color: white;
+}
+nav{
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+#lista{
+    display: flex;
+    gap: 55px;
+    list-style-type: none;
+    /* border: 2px solid black; */
+
+}
+a{
+    color: #9f9ea6;
+    text-decoration: none;
+}
+#botao{
+    border: 1px solid #82e09b;
+    padding: 10px;
+    color: #82e09b;
+    border-radius: 6px;
+    
+}
+#botao:hover{
+    background-color: #82e09b;
+    color: black;
+    transition: all 0.5 ease;
+}
+#gta{
+    background: linear-gradient(135deg, #ff69b4, #8a2be2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0.8;
+
+#gta:hover
+        opacity: 1;
+        transition: all 0.5s ease;
+
+}
+
+.laranja:hover{
+    color: #f97316;
+}
